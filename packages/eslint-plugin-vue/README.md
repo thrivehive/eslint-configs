@@ -1,11 +1,7 @@
 # `@thrivehive/eslint-plugin-vue`
 
-> ESLint config for thrivehive vue projects
+## Installation
 
-## Usage
-
-```
-const eslintPluginVue = require('@thrivehive/eslint-plugin-vue');
-
-// TODO: DEMONSTRATE API
+```bash
+npm install --save-dev @thrivehive/eslint-plugin-vue
 ```

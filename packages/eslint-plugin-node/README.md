@@ -1,11 +1,7 @@
 # `@thrivehive/eslint-plugin-node`
 
-> test
+## Installation
 
-## Usage
-
-```
-const eslintPluginNode = require('@thrivehive/eslint-plugin-node');
-
-// TODO: DEMONSTRATE API
+```bash
+npm install --save-dev @thrivehive/eslint-plugin-node
 ```
