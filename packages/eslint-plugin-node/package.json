@@ -1,0 +1,39 @@
+{
+  "name": "@thrivehive/eslint-plugin-node",
+  "version": "0.0.0",
+  "description": "ESLint config for @thrivehive node.js projects",
+  "author": "Nick Ford <nickforddesign@gmail.com>",
+  "homepage": "https://github.com/thrivehive/eslint-configs#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thrivehive/eslint-configs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/thrivehive/eslint-configs/issues"
+  },
+  "peerDependencies": {
+    "eslint": "^5.12.0",
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1"
+  }
+}
