@@ -15,6 +15,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'comma-dangle': ['error', 'never'],
     'max-len': ['warn', {
+      code: 100,
       ignoreTrailingComments: true,
       ignoreUrls: true,
       ignoreTemplateLiterals: true
