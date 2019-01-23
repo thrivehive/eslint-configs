@@ -25,5 +25,12 @@
   },
   "bugs": {
     "url": "https://github.com/thrivehive/eslint-configs/issues"
+  },
+  "peerDependencies": {
+    "@vue/eslint-config-airbnb": "*",
+    "eslint-plugin-vue": "*"
+  },
+  "dependencies": {
+    "@thrivehive/eslint-config-node": "^0.1.0"
   }
 }

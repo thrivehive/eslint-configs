@@ -5,13 +5,16 @@ module.exports = {
     jest: true
   },
   extends: [
-    'airbnb'
+    'airbnb-base'
   ],
+  parserOptions: {
+    parser: 'babel-eslint'
+  },
   rules: {
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'comma-dangle': ['error', 'never'],
-    'space-before-function-paren': 0,
     'max-len': ['warn', {
-      code: 100,
       ignoreTrailingComments: true,
       ignoreUrls: true,
       ignoreTemplateLiterals: true
@@ -19,18 +22,15 @@ module.exports = {
     'no-param-reassign': ['error', {
       props: true,
       ignorePropertyModificationsFor: [
-        'acc', // for reduce accumulators
-        'e', // for e.returnvalue
-        'ctx', // for Koa routing
-        'req', // for Express requests
-        'request', // for Express requests
-        'res', // for Express responses
-        'response', // for Express responses
-        'state' // for Vuex state
+        'acc',
+        'e',
+        'ctx',
+        'req',
+        'request',
+        'res',
+        'response',
+        'state'
       ]
     }]
-  },
-  parserOptions: {
-    parser: 'babel-eslint'
   }
 };
