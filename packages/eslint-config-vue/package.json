@@ -32,5 +32,6 @@
   },
   "dependencies": {
     "@thrivehive/eslint-config-node": "^1.0.1"
-  }
+  },
+  "gitHead": "0fbf1ece2dedea7a4203d42a9164f4d65739abf8"
 }
