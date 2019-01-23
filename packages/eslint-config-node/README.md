@@ -2,7 +2,7 @@
 
 ## About
 
-This eslint config extends the official [Airbnb ES6+ config](https://github.com/airbnb/javascript).
+This eslint config extends the official [Airbnb ES6+ base config](https://github.com/airbnb/javascript).
 
 ## Installation
 

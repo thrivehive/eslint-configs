@@ -2,8 +2,8 @@
 
 This is a lernajs repo containing eslint base configs for ThriveHive JavaScript projects.
 
-- [@thrivehive/eslint-plugin-node](./packages/eslint-plugin-node)
-- [@thrivehive/eslint-plugin-vue](./packages/eslint-plugin-vue)
+- [@thrivehive/eslint-config-node](./packages/eslint-config-node)
+- [@thrivehive/eslint-config-vue](./packages/eslint-config-vue)
 
 ## Development
 
@@ -12,7 +12,7 @@ Install lerna:
 npm i -g lerna
 ```
 
-Link local packages together and install remaining package dependencies:
+Link local packages together and install package dependencies:
 ```bash
 lerna bootstrap
 ```
@@ -21,3 +21,7 @@ Publish all packages that have changes:
 ```bash
 lerna publish
 ```
+
+## Linting
+
+This project uses the eslint config from `./packages/eslint-config-node`. 
