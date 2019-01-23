@@ -1,6 +1,6 @@
 {
   "name": "@thrivehive/eslint-config-vue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint config for @thrivehive Vue projects",
   "author": "Nick Ford <nickforddesign@gmail.com>",
   "homepage": "https://github.com/thrivehive/eslint-configs#readme",
@@ -31,7 +31,7 @@
     "eslint-plugin-vue": "*"
   },
   "dependencies": {
-    "@thrivehive/eslint-config-node": "^1.0.1"
+    "@thrivehive/eslint-config-node": "^1.0.2"
   },
   "gitHead": "0fbf1ece2dedea7a4203d42a9164f4d65739abf8"
 }
