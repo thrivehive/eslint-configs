@@ -5,9 +5,12 @@ module.exports = {
     jest: true
   },
   extends: [
+    'plugin:vue/recommended',
     '@vue/airbnb'
   ],
   rules: {
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'comma-dangle': ['error', 'never'],
     'space-before-function-paren': 0,
     'max-len': ['warn', {
@@ -16,6 +19,29 @@ module.exports = {
       ignoreUrls: true,
       ignoreTemplateLiterals: true
     }],
+    'vue/component-name-in-template-casing': [
+      'error', 'kebab-case'
+    ],
+    'vue/name-property-casing': ['error', 'kebab-case'],
+    'vue/script-indent': ['error', 2, {
+      baseIndent: 0,
+      switchCase: 0,
+      ignores: []
+    }],
+    'vue/max-attributes-per-line': ['error', {
+      singleline: 1,
+      multiline: {
+        max: 1,
+        allowFirstLine: false
+      }
+    }],
+    'vue/html-closing-bracket-newline': ['error', {
+      singleline: 'never',
+      multiline: 0
+    }],
+    'vue/html-closing-bracket-spacing': 'error',
+    'vue/no-v-html': 'off',
+    'vue/singleline-html-element-content-newline': 0,
     'no-param-reassign': ['error', {
       props: true,
       ignorePropertyModificationsFor: [
