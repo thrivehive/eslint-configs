@@ -1,6 +1,6 @@
 {
   "name": "@thrivehive/eslint-config-vue",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ESLint config for @thrivehive Vue projects",
   "author": "Nick Ford <nickforddesign@gmail.com>",
   "homepage": "https://github.com/thrivehive/eslint-configs#readme",
