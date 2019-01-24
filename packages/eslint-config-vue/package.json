@@ -1,6 +1,6 @@
 {
   "name": "@thrivehive/eslint-config-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint config for @thrivehive Vue projects",
   "author": "Nick Ford <nickforddesign@gmail.com>",
   "homepage": "https://github.com/thrivehive/eslint-configs#readme",
@@ -27,9 +27,9 @@
     "url": "https://github.com/thrivehive/eslint-configs/issues"
   },
   "peerDependencies": {
-    "@vue/eslint-config-airbnb": "*",
     "@thrivehive/eslint-config-node": "*",
-    "eslint-plugin-vue": "*",
-    "babel-eslint": "^10.0.1"
+    "@vue/eslint-config-airbnb": "*",
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-vue": "*"
   }
 }
