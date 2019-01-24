@@ -7,9 +7,6 @@ module.exports = {
   extends: [
     'airbnb-base'
   ],
-  parserOptions: {
-    parser: 'babel-eslint'
-  },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -32,6 +29,7 @@ module.exports = {
         'response',
         'state'
       ]
-    }]
+    }],
+    'import/extensions': 0
   }
 };

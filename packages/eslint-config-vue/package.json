@@ -28,10 +28,8 @@
   },
   "peerDependencies": {
     "@vue/eslint-config-airbnb": "*",
-    "eslint-plugin-vue": "*"
-  },
-  "dependencies": {
-    "@thrivehive/eslint-config-node": "^1.0.2"
-  },
-  "gitHead": "1e327a198254a4d28a41512d62a75688bf6a7964"
+    "@thrivehive/eslint-config-node": "*",
+    "eslint-plugin-vue": "*",
+    "babel-eslint": "^10.0.1"
+  }
 }
