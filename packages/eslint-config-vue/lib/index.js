@@ -1,6 +1,9 @@
 const config = require('@thrivehive/eslint-config-node');
 
 Object.assign(config, {
+  parserOptions: {
+    parser: 'babel-eslint'
+  },
   extends: [
     'plugin:vue/recommended',
     '@vue/airbnb'

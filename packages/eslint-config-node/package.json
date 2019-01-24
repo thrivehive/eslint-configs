@@ -26,11 +26,9 @@
   "bugs": {
     "url": "https://github.com/thrivehive/eslint-configs/issues"
   },
-  "devDependencies": {
-    "babel-eslint": "^10.0.1",
+  "peerDependencies": {
     "eslint": "^5.12.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.15.0"
-  },
-  "gitHead": "1e327a198254a4d28a41512d62a75688bf6a7964"
+  }
 }
