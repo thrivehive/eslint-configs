@@ -12,6 +12,11 @@ Install lerna:
 npm i -g lerna
 ```
 
+Install all sub-package depencies:
+```bash
+lerna exec npm i
+```
+
 Link local packages together and install package dependencies:
 ```bash
 lerna bootstrap
