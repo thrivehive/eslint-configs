@@ -1,6 +1,7 @@
 # `@thrivehive/eslint-plugin-vue`
 
 [![npm version](https://badge.fury.io/js/%40thrivehive%2Feslint-config-vue.svg)](https://badge.fury.io/js/%40thrivehive%2Feslint-config-vue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## About
 
