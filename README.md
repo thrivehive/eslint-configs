@@ -14,7 +14,7 @@ Install lerna:
 npm i -g lerna
 ```
 
-Install all packages' dependencies
+Install all subpackage dependencies
 
 ```bash
 lerna exec npm install
