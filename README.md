@@ -1,5 +1,7 @@
 # @thrivehive/eslint
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 This is a [lernajs](https://github.com/lerna/lerna/) repo containing eslint base configs for ThriveHive JavaScript projects. The configs extend [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base).
 
 - [@thrivehive/eslint-config-node](./packages/eslint-config-node)
