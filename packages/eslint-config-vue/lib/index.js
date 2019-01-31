@@ -21,7 +21,7 @@ Object.assign(config.rules, {
     ignores: []
   }],
   'vue/max-attributes-per-line': ['error', {
-    singleline: 1,
+    singleline: 100,
     multiline: {
       max: 1,
       allowFirstLine: false

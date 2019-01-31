@@ -20,7 +20,6 @@ Install all subpackage dependencies
 lerna exec npm install
 ```
 
-
 Link local packages together:
 ```bash
 lerna bootstrap
