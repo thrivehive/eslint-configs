@@ -1,6 +1,6 @@
 {
   "name": "@thrivehive/eslint-config-node",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "ESLint config for @thrivehive node.js projects",
   "author": "Nick Ford <nickforddesign@gmail.com>",
   "homepage": "https://github.com/thrivehive/eslint-configs#readme",
