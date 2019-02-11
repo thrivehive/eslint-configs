@@ -27,10 +27,6 @@ Object.assign(config.rules, {
       allowFirstLine: false
     }
   }],
-  'vue/html-closing-bracket-newline': ['error', {
-    singleline: 'never',
-    multiline: 0
-  }],
   'vue/html-closing-bracket-spacing': 'error',
   'vue/no-v-html': 'off',
   'vue/singleline-html-element-content-newline': 0

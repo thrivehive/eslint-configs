@@ -14,7 +14,7 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'comma-dangle': ['error', 'never'],
-    'max-len': ['warn', {
+    'max-len': ['error', {
       code: 100,
       ignoreTrailingComments: true,
       ignoreUrls: true,
@@ -23,14 +23,14 @@ module.exports = {
     'no-param-reassign': ['error', {
       props: true,
       ignorePropertyModificationsFor: [
-        'acc',
-        'e',
-        'ctx',
-        'req',
-        'request',
-        'res',
-        'response',
-        'state'
+        'acc', // array.reduce
+        'e', // error
+        'ctx', // koa
+        'req', // express
+        'request', // express
+        'res', // express
+        'response', // express
+        'state' // vuex
       ]
     }],
     'import/extensions': 0
