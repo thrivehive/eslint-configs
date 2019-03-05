@@ -1,3 +1,6 @@
+const env = process.env.NODE_ENV;
+const isProd = env === 'production';
+
 module.exports = {
   root: true,
   env: {
@@ -11,8 +14,8 @@ module.exports = {
     quotes: ['error', 'single', {
       allowTemplateLiterals: true
     }],
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-console': isProd ? 'error' : 'off',
+    'no-debugger': isProd ? 'error' : 'off',
     'comma-dangle': ['error', 'never'],
     'max-len': ['error', {
       code: 100,
@@ -30,9 +33,15 @@ module.exports = {
         'request', // express
         'res', // express
         'response', // express
-        'state' // vuex
+        'state', // vuex,
+        '$el' // dom forEach
       ]
     }],
-    'import/extensions': 0
+    'import/extensions': 0,
+    'object-shorthand': ['error', 'always', {
+      avoidQuotes: false
+    }],
+    'arrow-parens': ['error', 'always'],
+    'arrow-body-style': 0
   }
 };
