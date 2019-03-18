@@ -42,6 +42,16 @@ module.exports = {
       avoidQuotes: false
     }],
     'arrow-parens': ['error', 'always'],
-    'arrow-body-style': 0
+    'arrow-body-style': 0,
+    'prefer-destructuring': ['error', {
+      VariableDeclarator: {
+        array: false,
+        object: true
+      },
+      AssignmentExpression: {
+        array: false,
+        object: false
+      }
+    }]
   }
 };
