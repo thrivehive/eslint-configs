@@ -6,7 +6,8 @@ Object.assign(config, {
   },
   extends: [
     '@nuxtjs',
-    'plugin:nuxt/recommended'
+    'plugin:nuxt/recommended',
+    'airbnb-base'
   ]
 });
 
@@ -33,5 +34,7 @@ Object.assign(config.rules, {
   'require-await': 0,
   'nuxt/no-cjs-in-config': 'off'
 });
+
+console.log(config)
 
 module.exports = config;
