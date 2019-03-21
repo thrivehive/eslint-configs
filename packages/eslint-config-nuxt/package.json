@@ -1,6 +1,6 @@
 {
   "name": "@thrivehive/eslint-config-nuxt",
-  "version": "0.1.0",
+  "version": "1.2.3",
   "description": "ESLint config for @thrivehive Nuxt projects",
   "author": "Nick Ford <nickforddesign@gmail.com>",
   "homepage": "https://github.com/thrivehive/eslint-configs#readme",
@@ -27,11 +27,11 @@
     "url": "https://github.com/thrivehive/eslint-configs/issues"
   },
   "devDependencies": {
-    "@thrivehive/eslint-config-node": "^1.2.2"
+    "@thrivehive/eslint-config-node": "^1.2.3"
   },
   "peerDependencies": {
-    "@thrivehive/eslint-config-node": "*",
     "@nuxtjs/eslint-config": "*",
+    "@thrivehive/eslint-config-node": "*",
     "babel-eslint": "^10.0.1",
     "eslint-plugin-nuxt": "*"
   }
