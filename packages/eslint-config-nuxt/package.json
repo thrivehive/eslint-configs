@@ -1,6 +1,6 @@
 {
   "name": "@thrivehive/eslint-config-nuxt",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "ESLint config for @thrivehive Nuxt projects",
   "author": "Nick Ford <nickforddesign@gmail.com>",
   "homepage": "https://github.com/thrivehive/eslint-configs#readme",
@@ -33,9 +33,9 @@
     "@nuxtjs/eslint-config": "*",
     "@thrivehive/eslint-config-node": "*",
     "babel-eslint": "^10.0.1",
-    "eslint-plugin-nuxt": "*",
     "eslint": "^5.12.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.15.0"
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-nuxt": "*"
   }
 }
