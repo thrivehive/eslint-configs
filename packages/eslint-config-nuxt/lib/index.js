@@ -6,7 +6,8 @@ Object.assign(config, {
   },
   extends: [
     '@nuxtjs',
-    'plugin:nuxt/recommended'
+    'plugin:nuxt/recommended',
+    'airbnb-base'
   ]
 });
 
@@ -30,6 +31,7 @@ Object.assign(config.rules, {
   'vue/html-closing-bracket-spacing': 'error',
   'vue/no-v-html': 'off',
   'vue/singleline-html-element-content-newline': 0,
+  'import/no-unresolved': 0,
   'require-await': 0,
   'nuxt/no-cjs-in-config': 'off'
 });
