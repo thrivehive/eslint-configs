@@ -6,10 +6,12 @@ This is a [lernajs](https://github.com/lerna/lerna/) repo containing eslint base
 
 - [@thrivehive/eslint-config-node](./packages/eslint-config-node)
 - [@thrivehive/eslint-config-vue](./packages/eslint-config-vue)
+- [@thrivehive/eslint-config-nuxt](./packages/eslint-config-nuxt)
 
 ## Development
 
 Install lerna:
+
 ```bash
 npm i -g lerna
 ```
@@ -21,6 +23,7 @@ lerna exec npm install
 ```
 
 Link local packages together:
+
 ```bash
 lerna bootstrap
 ```
