@@ -21,6 +21,12 @@ Using Yarn:
 yarn add --dev @thrivehive/eslint-config-node
 ```
 
+This package has several peerDependencies, to install all of them at once use the following:
+
+```bash
+npm install --save-dev @thrivehive/eslint-config-node eslint eslint-config-airbnb-base eslint-plugin-import
+```
+
 ## Usage
 
 In .eslintrc.js:
