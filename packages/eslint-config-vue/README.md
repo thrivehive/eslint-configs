@@ -1,4 +1,4 @@
-# `@thrivehive/eslint-plugin-vue`
+# `@thrivehive/eslint-config-vue`
 
 [![npm version](https://badge.fury.io/js/%40thrivehive%2Feslint-config-vue.svg)](https://badge.fury.io/js/%40thrivehive%2Feslint-config-vue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -12,12 +12,13 @@ This eslint config extends the official [Vue Airbnb config](https://github.com/v
 Using NPM:
 
 ```bash
-npm install --save-dev @thrivehive/eslint-plugin-vue
+npm install --save-dev @thrivehive/eslint-config-vue
 ```
 
 Using Yarn:
+
 ```bash
-yarn add --dev @thrivehive/eslint-plugin-vue
+yarn add --dev @thrivehive/eslint-config-vue
 ```
 
 ## Usage

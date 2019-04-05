@@ -1,4 +1,4 @@
-# `@thrivehive/eslint-plugin-node`
+# `@thrivehive/eslint-config-node`
 
 [![npm version](https://badge.fury.io/js/%40thrivehive%2Feslint-config-node.svg)](https://badge.fury.io/js/%40thrivehive%2Feslint-config-node)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -12,12 +12,13 @@ This eslint config extends the official [Airbnb JS base config](https://github.c
 Using NPM:
 
 ```bash
-npm install --save-dev @thrivehive/eslint-plugin-node
+npm install --save-dev @thrivehive/eslint-config-node
 ```
 
 Using Yarn:
+
 ```bash
-yarn add --dev @thrivehive/eslint-plugin-node
+yarn add --dev @thrivehive/eslint-config-node
 ```
 
 ## Usage
